@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	
+	#app
+		// navigation buttons for each day
+		.text-center
+			days-toolbar(use-abbreviations="false", today-index="3")
+
+		// challenge information
+		.text-center
+			h1 Watch a TED talk to get inspired and learn something new
+			h4 Accomplished?
+			button.btn.btn-success Yes
+			button.btn.btn-danger No
